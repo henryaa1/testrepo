@@ -1,6 +1,6 @@
 to setup
   clear-all
-type "hi my name is Andrea"
+
   create-turtles floor (world-width / 3) [
     set xcor 1 + who * 3  ;; space out the turtles in order by who number
     set color color - 2   ;; darker
